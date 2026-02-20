@@ -1,0 +1,40 @@
+.header{
+    width:100;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    padding:2rem;
+    border-bottom: 1px solid #00000018 ;
+    position:sticky;
+    background-color:#fff;
+    z-index:100;
+    top:0vh;
+}
+
+.logo{
+    display:flex;
+    align-items: flex-start;
+    width:50%
+}
+
+.logo>img{
+    width:25%;
+    
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width:50%;
+    
+}
+
+.nav-options{
+    text-decoration: none;
+    color:#000;
+    font-size:1.25rem;
+    font-weight:500;
+}
