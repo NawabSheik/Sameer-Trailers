@@ -8,7 +8,7 @@ const TipTrailer = () => {
       <img src={TipTrailers} alt="" className="product-hero-image" />
 
       <div className="product-head">
-        <h2 className="product-name">Tip Trailer</h2>
+        <h2 className="product-page-name">Tip Trailer</h2>
       </div>
 
       <div className="product-info-div">
