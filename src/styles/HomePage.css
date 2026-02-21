@@ -266,6 +266,11 @@
 .quality-section{
     margin-top:5rem;
     width:100%;
+    margin-bottom:5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .quality-section-head{
@@ -282,7 +287,7 @@
 
 .quality-section-points{
     margin-top:3rem;
-    width: 100%;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -295,6 +300,15 @@
     position:relative;
     background-color: #000000;
     object-fit: cover;
+    
+    transition: all .2s ease-in-out;
+    
+}
+
+.quality-section-point:hover{
+    transform:scale(1.05);
+    filter:drop-shadow(15px 15px 0px #f58720);
+    
 }
 
 .quality-section-point>img{
