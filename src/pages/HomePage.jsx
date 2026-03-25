@@ -35,11 +35,19 @@ const HomePage = () => {
         </div>
         <div className="featured-products">
         <Swiper
-        slidesPerView={2}
+        
         spaceBetween={30}
         navigation={true} 
         modules={[Navigation]}
         className="mySwiper"
+        breakpoints={{
+          0: {
+            slidesPerView: 1, // 📱 mobile
+          },
+          768: {
+            slidesPerView: 2, // 💻 tablet & above
+          }
+        }}
       >
         <SwiperSlide>
           <div>

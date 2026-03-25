@@ -62,3 +62,33 @@
     cursor:pointer;
     
 }
+
+@media(max-width:768px){
+
+    .product-row{
+        flex-direction: column;
+    }
+
+    .product-div{
+        width: 100%;
+    }
+
+    .product-details{
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+
+    .product-name{
+        font-size:2rem;
+    }
+
+    .product-desc{
+        font-size:1.25rem;
+        line-height: 1.5rem;
+    }
+
+    .product-button{
+        font-size:1.25rem;
+        width: 60%;
+    }
+}
