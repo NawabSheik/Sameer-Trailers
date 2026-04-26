@@ -93,13 +93,13 @@
     }
 }
 
-.product-info-row{
+.product-info-row2{
     display: flex;
     align-items: center;
     justify-content: center;
    
     flex-direction: row;
-    width: 100%;
+    width: 90%;
     height:60vh;
     padding-bottom:2rem;
     border-bottom:1px solid #000;
@@ -175,7 +175,7 @@
 }
 
 @media(max-width:768px){
-    .product-info-row{
+    .product-info-row2{
         align-items: center;
         justify-content: center;
         flex-direction: column;

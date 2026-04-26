@@ -14,7 +14,7 @@ const Tippers = () => {
             <h1 className="product-page-heading">Tippers</h1>
             <span className="head-stroke"></span>
         </div>
-      <div className="product-info-row">
+      <div className="product-info-row2">
         <div className="product-info-left">
             <img src={Tipper1}/>
             <h3 className="product-catalogue-name">20 cum ROCK BODY U SHAPE</h3>
@@ -29,7 +29,7 @@ const Tippers = () => {
         </div>
         
       </div>
-      <div className="product-info-row">
+      <div className="product-info-row2">
         <div className="product-info-left">
             <img src={Tipper2}/>
             <h3 className="product-catalogue-name">22.5/24 Cum ROCK BODY TIPPER</h3>
@@ -44,7 +44,7 @@ Strong body structure ensures durability in rough terrain operations.</p>
         </div>
         
       </div>
-      <div className="product-info-row">
+      <div className="product-info-row2">
         <div className="product-info-left">
             <img src={Tipper3}/>
             <h3 className="product-catalogue-name">14/16 Cum Rock Body Tipper</h3>
@@ -59,7 +59,7 @@ Provides efficient loading, transport, and quick discharge cycles.</p>
         </div>
         
       </div>
-      <div className="product-info-row">
+      <div className="product-info-row2">
         <div className="product-info-left">
             <img src={Tipper4}/>
             <h3 className="product-catalogue-name">25/32 Cum Box Body Tip Trailer
@@ -75,7 +75,7 @@ Box design ensures stability and secure movement over long distances.</p>
         </div>
         
       </div>
-      <div className="product-info-row">
+      <div className="product-info-row2">
         <div className="product-info-left">
             <img src={Tipper5}/>
             <h3 className="product-catalogue-name">22/24 Cum Box Body Tip Trailer</h3>
