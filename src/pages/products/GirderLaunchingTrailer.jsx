@@ -1,8 +1,8 @@
 import React from 'react'
-import "../styles/product.css";
-import TipTrailers from "../assets/tip-trailer-hero.webp";
-import TipTrailersMobile from "../assets/tip-trailer.webp";
-import GLCBlueprint from "../assets/blueprints/glc-blueprint.webp";
+import "../../styles/product.css";
+import TipTrailers from "../../assets/tip-trailer-hero.webp";
+import TipTrailersMobile from "../../assets/tip-trailer.webp";
+import GLCBlueprint from "../../assets/blueprints/glc-blueprint.webp";
 
 
 const TipTrailer = () => {
@@ -51,21 +51,7 @@ const TipTrailer = () => {
               </ul>
             </div>
             </div>
-            <div className="product-info">
-            <div className="product-info-head">
-              <i></i>Landing leg
-            </div>
-            <div className="product-info-desc">
-              <ul>
-              
-                <li className="product-desc-pointer"> Two speed geared landing leg  
-                                                       provided</li>
-                <li className="product-desc-pointer"> Make : York or equivalent</li>
-                
-                
-              </ul>
-            </div>
-            </div>
+           
             
           </div>
           <div className="product-info-col-2">
@@ -75,7 +61,7 @@ const TipTrailer = () => {
             </div>
             <div className="product-info-desc">
               <ul>
-                <li className="product-desc-pointer">3/2 axles (14-ton) provided </li>
+                <li className="product-desc-pointer">2/3 axles (14-ton) provided </li>
                 <li className="product-desc-pointer">Make: York or equivalent</li>
                 
                 
@@ -128,11 +114,9 @@ const TipTrailer = () => {
             <div className="product-info-desc">
               <ul>
               
-                <li className="product-desc-pointer">16-ton capacity tridem axle leaf spring suspension with load 
-                                    equalizing brackets</li>
-                <li className="product-desc-pointer">Tandem 16ton + 14ton pneumatic suspension</li>
-                <li className="product-desc-pointer">Tridem pneumatic suspension</li>
-                
+                <li className="product-desc-pointer">18-ton capacity tandem axle leaf spring</li>
+                <li className="product-desc-pointer">Suspension with load equalizing brackets</li>
+              
                 
               </ul>
             </div>

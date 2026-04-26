@@ -2,7 +2,7 @@ import React from 'react'
 import "../styles/ProductPage.css";
 import TipTrailer from "../assets/product-thumbnail/tip-trailer.webp"
 import GLCTrailer from "../assets/product-thumbnail/glc-trailer.webp";
-import RockBodyTrailer from "../assets/product-thumbnail/rock-body-trailer.webp"
+import SideWallTrailer from "../assets/product-thumbnail/side-wall-trailer.webp"
 import ContainerTrailer from "../assets/product-thumbnail/container-trailer.webp";
 import FlatBedTrailer from "../assets/product-thumbnail/flat-bed-trailer.webp";
 import BulkerTrailer from "../assets/product-thumbnail/bulker-trailer.webp";
@@ -50,10 +50,10 @@ const ProductPage = () => {
       </div>
       <div className="product-row">
         <div className="product-div">
-           <img src={RockBodyTrailer} alt="" className="product-image" />
+           <img src={SideWallTrailer} alt="" className="product-image" />
            <div className="product-details">
           <h1 className="product-name">
-            Rock Body Trailer
+            Side Wall Trailer
           </h1>
           <p className="product-desc">
             Main girder - fabricated <br/>
@@ -62,7 +62,7 @@ const ProductPage = () => {
             Material: HSFQ - 450
           </p>
           
-           <Link to="/product/rock-body-trailer" ><button className='product-button'> Learn More </button>  </Link>
+           <Link to="/product/side-wall-trailer" ><button className='product-button'> Learn More </button>  </Link>
         
          </div>
         </div>

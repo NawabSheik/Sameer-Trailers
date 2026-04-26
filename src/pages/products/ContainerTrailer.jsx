@@ -1,8 +1,8 @@
 import React from 'react'
-import "../styles/product.css";
-import TipTrailers from "../assets/tip-trailer-hero.webp";
-import TipTrailersMobile from "../assets/tip-trailer.webp";
-import GLCBlueprint from "../assets/blueprints/glc-blueprint.webp";
+import "../../styles/product.css";
+import TipTrailers from "../../assets/product-img/container-trailer.webp";
+import TipTrailersMobile from "../../assets/product-thumbnail/container-trailer.webp";
+import GLCBlueprint from "../../assets/blueprints/glc-blueprint.webp";
 
 
 const TipTrailer = () => {
@@ -12,7 +12,7 @@ const TipTrailer = () => {
       <img src={TipTrailersMobile} alt="" className="product-hero-mobile-image" />
 
       <div className="product-head">
-        <h2 className="product-page-name">Girder Launching Trailer</h2>
+        <h2 className="product-page-name">Container Trailer</h2>
       </div>
 
       <div className="product-info-div">
@@ -27,7 +27,7 @@ const TipTrailer = () => {
             </div>
             <div className="product-info-desc">
               <ul>
-                <li className="product-desc-pointer">Main girder - fabricated</li>
+                <li className="product-desc-pointer">Main girder - fabricated/Sail/Jindal</li>
                 <li className="product-desc-pointer">Cross members - rolled or folded 
                                                     positioned at suitable locations</li>
                 <li className="product-desc-pointer">Material: HSFQ - 450</li>
@@ -75,8 +75,8 @@ const TipTrailer = () => {
             </div>
             <div className="product-info-desc">
               <ul>
-                <li className="product-desc-pointer">3/2 axles (14-ton) provided </li>
-                <li className="product-desc-pointer">Make: York or equivalent</li>
+                <li className="product-desc-pointer">Tandem or Tridom (14 to 18ton) provided </li>
+                <li className="product-desc-pointer">Make York,TATA,Kross. or equivalent</li>
                 
                 
               </ul>
@@ -89,13 +89,9 @@ const TipTrailer = () => {
             <div className="product-info-desc">
               <ul>
               
-                <li className="product-desc-pointer">Twin line air brake system coupled to 
-   prime mover brake system</li>
-                <li className="product-desc-pointer">Trailer brakes are actuated from the 
-   prime mover</li>
-  
-   <li className="product-desc-pointer">T24 brake chamber provided on all 
-   axles</li>
+                <li className="product-desc-pointer">Twin line air brake system coupled to prime mover brake system</li>
+                <li className="product-desc-pointer">Trailer brakes are actuated from the prime mover</li>
+                <li className="product-desc-pointer">T24 brake chamber provided on all axles</li>
     <li className="product-desc-pointer">Manually actuated parking brake.</li>
     <li className="product-desc-pointer">QRV or LQRV provided for enhanced 
    braking efficiency</li>
@@ -132,6 +128,20 @@ const TipTrailer = () => {
                                     equalizing brackets</li>
                 <li className="product-desc-pointer">Tandem 16ton + 14ton pneumatic suspension</li>
                 <li className="product-desc-pointer">Tridem pneumatic suspension</li>
+                
+                
+              </ul>
+            </div>
+            </div>
+            <div className="product-info">
+            <div className="product-info-head">
+              ADDONS
+            </div>
+            <div className="product-info-desc">
+              <ul>
+              
+                <li className="product-desc-pointer">Parking lights, rearview camera, indicator lamps, sidelights, reflectors, toolbox etc. will be provided </li>
+                
                 
                 
               </ul>

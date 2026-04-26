@@ -8,6 +8,9 @@ import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import Tippers from "../assets/tippers.webp"
+import BodyBuilders from "../assets/body-builders.webp"
+import Bulkers from "../assets/bulkers.webp"
+import Trailers from "../assets/trailers.webp"
 import { Link } from 'react-router-dom';
 
 const HomePage = () => {
@@ -51,7 +54,7 @@ const HomePage = () => {
       >
         <SwiperSlide>
           <div>
-          <Link to="/products/tippers" className="product-slide">
+          <Link to="/product/tippers" className="product-slide">
             <img src={Tippers}/>
             <h2  className='product-name'>Tippers</h2>
           </Link>
@@ -62,21 +65,21 @@ const HomePage = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div>
-          <Link to="/products/tippers" className="product-slide">
-            <img src={Tippers}/>
+          <Link to="/product/tippers" className="product-slide">
+            <img src={BodyBuilders}/>
             <h2  className='product-name'>Body Building</h2>
           </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <Link to="/products/tippers" className="product-slide">
-            <img src={Tippers}/>
+          <Link to="/product/tippers" className="product-slide">
+            <img src={Bulkers}/>
             <h2  className='product-name'>Bulkers / Tankers</h2>
           </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Link to="/products/tippers" className="product-slide">
-            <img src={Tippers}/>
+          <Link to="/product/tippers" className="product-slide">
+            <img src={Trailers}/>
             <h2  className='product-name'>Trailers</h2>
           </Link>
         </SwiperSlide>

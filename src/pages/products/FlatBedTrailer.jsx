@@ -1,8 +1,8 @@
 import React from 'react'
-import "../styles/product.css";
-import TipTrailers from "../assets/tip-trailer-hero.webp";
-import TipTrailersMobile from "../assets/tip-trailer.webp";
-import GLCBlueprint from "../assets/blueprints/glc-blueprint.webp";
+import "../../styles/product.css";
+import TipTrailers from "../../assets/product-img/flat-bed-trailer.webp";
+import TipTrailersMobile from "../../assets/product-thumbnail/flat-bed-trailer.webp";
+import GLCBlueprint from "../../assets/blueprints/glc-blueprint.webp";
 
 
 const TipTrailer = () => {
@@ -12,7 +12,7 @@ const TipTrailer = () => {
       <img src={TipTrailersMobile} alt="" className="product-hero-mobile-image" />
 
       <div className="product-head">
-        <h2 className="product-page-name">Girder Launching Trailer</h2>
+        <h2 className="product-page-name">Flat Bed Trailer</h2>
       </div>
 
       <div className="product-info-div">
@@ -27,9 +27,8 @@ const TipTrailer = () => {
             </div>
             <div className="product-info-desc">
               <ul>
-                <li className="product-desc-pointer">Main girder - fabricated</li>
-                <li className="product-desc-pointer">Cross members - rolled or folded 
-                                                    positioned at suitable locations</li>
+                <li className="product-desc-pointer">Main girder - fabricated/Sail/Jindal</li>
+                <li className="product-desc-pointer">Cross members - rolled or folded and I beam positioned at suitable locations</li>
                 <li className="product-desc-pointer">Material: HSFQ - 450</li>
                 
                 
@@ -53,13 +52,12 @@ const TipTrailer = () => {
             </div>
             <div className="product-info">
             <div className="product-info-head">
-              <i></i>Landing leg
+              Landing leg
             </div>
             <div className="product-info-desc">
               <ul>
               
-                <li className="product-desc-pointer"> Two speed geared landing leg  
-                                                       provided</li>
+                <li className="product-desc-pointer"> Two speed geared landing leg /Fabricated</li>
                 <li className="product-desc-pointer"> Make : York or equivalent</li>
                 
                 
@@ -75,8 +73,8 @@ const TipTrailer = () => {
             </div>
             <div className="product-info-desc">
               <ul>
-                <li className="product-desc-pointer">3/2 axles (14-ton) provided </li>
-                <li className="product-desc-pointer">Make: York or equivalent</li>
+                <li className="product-desc-pointer">Tandem Or Tridem (14 to 18 Ton) Provide</li>
+                <li className="product-desc-pointer">Make York,TATA,Kross. equivalent</li>
                 
                 
               </ul>
