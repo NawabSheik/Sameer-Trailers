@@ -45,10 +45,10 @@ const HomePage = () => {
         className="mySwiper"
         breakpoints={{
           0: {
-            slidesPerView: 1, // 📱 mobile
+            slidesPerView: 1, 
           },
           768: {
-            slidesPerView: 2, // 💻 tablet & above
+            slidesPerView: 2, 
           }
         }}
       >
