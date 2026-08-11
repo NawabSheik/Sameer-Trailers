@@ -2,6 +2,8 @@ import React from 'react'
 import HeroTrailer from "../assets/hero-img.webp"
 import Manufacturing from "../assets/manufacturing.webp";
 import Steel from "../assets/steel.webp";
+import QualityImage2 from "../assets/quality-img2.webp";
+import QualityImage3 from "../assets/quality-img3.webp";
 import "../styles/HomePage.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
@@ -12,6 +14,7 @@ import BodyBuilders from "../assets/body-builders.webp"
 import Bulkers from "../assets/bulkers.webp"
 import Trailers from "../assets/trailers.webp"
 import { Link } from 'react-router-dom';
+import ScrollImage from '../components/ScrollImage';
 
 const HomePage = () => {
   return (
@@ -37,6 +40,7 @@ const HomePage = () => {
         <h1 className="feature-product-heading">WHAT WE BUILD</h1>
         </div>
         <div className="featured-products">
+          
         <Swiper
         
         spaceBetween={30}
@@ -48,7 +52,7 @@ const HomePage = () => {
             slidesPerView: 1, 
           },
           768: {
-            slidesPerView: 2, 
+            slidesPerView: 3, 
           }
         }}
       >
@@ -56,37 +60,30 @@ const HomePage = () => {
           <div>
           <Link to="/product/tippers" className="product-slide">
             <img src={Tippers}/>
-            <h2  className='product-name'>Tippers</h2>
+            <h2  className='featured-product-name'>Tippers</h2>
           </Link>
           </div>
           
-          
-
         </SwiperSlide>
+  
         <SwiperSlide>
-          <div>
-          <Link to="/product/tippers" className="product-slide">
-            <img src={BodyBuilders}/>
-            <h2  className='product-name'>Body Building</h2>
-          </Link>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link to="/product/tippers" className="product-slide">
+          <Link to="/product/bulkers" className="product-slide">
             <img src={Bulkers}/>
-            <h2  className='product-name'>Bulkers / Tankers</h2>
+            <h2  className='featured-product-name'>Bulkers / Tankers</h2>
           </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Link to="/product/tippers" className="product-slide">
+          <Link to="/product/trailers" className="product-slide">
             <img src={Trailers}/>
-            <h2  className='product-name'>Trailers</h2>
+            <h2  className='featured-product-name'>Trailers</h2>
           </Link>
         </SwiperSlide>
        
       </Swiper>
         </div>
       </div>
+        
+      <ScrollImage/>
 
       <div className="reach-out-section">
         <div className="reach-out-section-left">
@@ -114,31 +111,31 @@ const HomePage = () => {
 
               <div className='quality-point'>
                 <h2 className="quality-point-head">HIGH GRADE STRUCTURAL STEEL</h2>
-                <p className="quality-point-desc">We use premium-quality, heavy-duty steel to ensure superior load-bearing capacity, structural rigidity, and long-term durability even under extreme operating conditions.</p>
+                <p className="quality-point-desc">We use high-quality steel and robust structural components to build trailers that deliver excellent load-bearing capacity, rigidity, and long-term durability & performance</p>
               </div>
           </div>
           <div className="quality-section-point">
-              <img className="quality-image" src={Steel}/>
+              <img className="quality-image" src={QualityImage2}/>
 
               <div className='quality-point'>
                 <h2 className="quality-point-head">PRECISION ENGINEERING</h2>
-                <p className="quality-point-desc">We use premium-quality, heavy-duty steel to ensure superior load-bearing capacity, structural rigidity, and long-term durability even under extreme operating conditions.</p>
+                <p className="quality-point-desc">Every trailer is engineered with precision to ensure accurate dimensions, reliable construction, and dependable performance across demanding transportation applications.</p>
               </div>
           </div>
           <div className="quality-section-point">
-              <img className="quality-image" src={Steel}/>
+              <img className="quality-image" src={QualityImage3}/>
 
               <div className='quality-point'>
                 <h2 className="quality-point-head">REINFORCED CHASSIS DESIGN</h2>
-                <p className="quality-point-desc">We use premium-quality, heavy-duty steel to ensure superior load-bearing capacity, structural rigidity, and long-term durability even under extreme operating conditions.</p>
+                <p className="quality-point-desc">Our reinforced chassis is designed to handle heavy loads while maintaining structural stability, reducing stress on critical components and ensuring dependable performance.</p>
               </div>
           </div>
           <div className="quality-section-point">
               <img className="quality-image" src={Steel}/>
 
               <div className='quality-point'>
-                <h2 className="quality-point-head">HEAVY DUTY AXLES & SUSPENSION</h2>
-                <p className="quality-point-desc">We use premium-quality, heavy-duty steel to ensure superior load-bearing capacity, structural rigidity, and long-term durability even under extreme operating conditions.</p>
+                <h2 className="quality-point-head">QUALITY-DRIVEN MANUFACTURING</h2>
+                <p className="quality-point-desc">Our modern manufacturing processes combine precision fabrication, skilled workmanship, & rigorous quality checks to ensure every trailer meets high standards of strength, & reliability.</p>
               </div>
           </div>
         </div>

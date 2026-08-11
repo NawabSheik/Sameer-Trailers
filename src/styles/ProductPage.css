@@ -133,7 +133,8 @@
 
 
 .product-info-desc{
-    font-size:1.5rem;
+    font-size:1.25rem;
+    line-height: 2rem;
 }
 
 .know-more-btn{
@@ -173,8 +174,31 @@
     width: 80%;
     background-color: #f58720;
 }
+.head-stroke-2{
+    display: block;
+    height:3px;
+    width: 70%;
+    background-color: #f58720;
+}
 
 @media(max-width:768px){
+
+   
+
+    .product-page-heading{
+        margin-top: 1rem;
+        font-size:2rem;
+        line-height: 2rem;
+    }
+
+    .head-stroke{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .head-stroke-2{
+        width:100%;
+         margin-top: 1rem;
+    }
     .product-info-row2{
         align-items: center;
         justify-content: center;
@@ -196,9 +220,12 @@
         font-size:1rem;
         text-align: center;
         width: 80%;
+        font-weight: 500;
     }
 
     .product-info-desc{
-        font-size:1rem;
+        font-size:0.75rem;
+        line-height: 1rem;
+        text-align: justify;
     }
 }

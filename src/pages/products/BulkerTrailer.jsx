@@ -61,7 +61,7 @@ const TipTrailer = () => {
             <div className="product-info-desc">
               <ul>
                 <li className="product-desc-pointer">Tandem or Tridom (14 to 18ton) provided</li>
-                <li className="product-desc-pointer">Make York,TATA,Kross, or equivalent</li>
+                <li className="product-desc-pointer">Make York, TATA, Kross, or equivalent</li>
                 
                 
               </ul>
@@ -123,7 +123,7 @@ const TipTrailer = () => {
             <div className="product-info-desc">
               <ul>
               
-                <li className="product-desc-pointer">Tridem suspension -Heavy duty free ended laminated leaf spring assemblies with "U" clamps & Spring pads.</li>
+                <li className="product-desc-pointer">Tridem suspension - Heavy duty free ended laminated leaf spring assemblies with "U" clamps & Spring pads.</li>
                 <li className="product-desc-pointer">The alignment of the axles is achieved through tow adjustable torque arms provided on each side and
                   locked.</li>
                 <li className="product-desc-pointer">12-16 ton capacity tandem or tridem axle leaf spring suspension with load equalizing brackets</li>
@@ -139,9 +139,6 @@ const TipTrailer = () => {
         </div>
       </div>
 
-      <div className="blueprint">
-        <img className='blueprint-img' src={GLCBlueprint}/>
-      </div>
     
     </div>
   )

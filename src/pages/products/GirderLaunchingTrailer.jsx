@@ -13,7 +13,8 @@ const TipTrailer = () => {
 
       <div className="product-head">
         <h2 className="product-page-name">Girder Launching Trailer</h2>
-      </div>
+      </div> 
+
 
       <div className="product-info-div">
         
@@ -45,8 +46,7 @@ const TipTrailer = () => {
               
                 <li className="product-desc-pointer">2" king pin equivalent to IS: 6763 Part I 
                     provided</li>
-                <li className="product-desc-pointer">Make: York or equivalent</li>
-                
+               
                 
               </ul>
             </div>
@@ -121,6 +121,20 @@ const TipTrailer = () => {
               </ul>
             </div>
             </div>
+            <div className="product-info">
+            <div className="product-info-head">
+              Material
+            </div>
+            <div className="product-info-desc">
+              <ul>
+              
+                <li className="product-desc-pointer">HSFQ - 450 6 shock absorber springs provided for 20 ft and 40 ft container</li>
+              
+              
+                
+              </ul>
+            </div>
+            </div>
              
             
           </div>
@@ -128,9 +142,7 @@ const TipTrailer = () => {
         </div>
       </div>
 
-      <div className="blueprint">
-        <img className='blueprint-img' src={GLCBlueprint}/>
-      </div>
+    
     
     </div>
   )

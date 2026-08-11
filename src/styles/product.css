@@ -158,7 +158,7 @@
     }
 
     .product-page-name{
-        font-size:2rem;
+        font-size:2.5rem;
     }
 
     .product-info-responsive-col{
@@ -184,7 +184,8 @@
     }
 
     .product-desc-pointer{
-        font-size:1rem;
+        font-size:0.9rem;
+        width: 100%;
         
         color:#000;
     }

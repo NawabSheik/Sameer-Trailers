@@ -76,7 +76,7 @@ const TipTrailer = () => {
             <div className="product-info-desc">
               <ul>
                 <li className="product-desc-pointer">Tandem or Tridom (14 to 18ton) provided </li>
-                <li className="product-desc-pointer">Make York,TATA,Kross. or equivalent</li>
+                <li className="product-desc-pointer">Make York, TATA, Kross. or equivalent</li>
                 
                 
               </ul>
@@ -154,10 +154,7 @@ const TipTrailer = () => {
         </div>
       </div>
 
-      <div className="blueprint">
-        <img className='blueprint-img' src={GLCBlueprint}/>
-      </div>
-    
+      
     </div>
   )
 }
