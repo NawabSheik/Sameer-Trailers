@@ -13,7 +13,7 @@ import FlatBedTrailer from './pages/products/FlatBedTrailer';
 import BulkerTrailer from './pages/products/BulkerTrailer';
 import Tippers from './pages/products/Tippers';
 import Bulkers from './pages/products/Bulkers';
-import Trailers from './pages/products/trailers';
+import Trailers from './pages/products/Trailers';
 import Contact from './pages/Contact';
 import AboutUs from './pages/AboutUs';
 
