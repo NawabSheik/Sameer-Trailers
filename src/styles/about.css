@@ -155,7 +155,7 @@
 @media(max-width:768px){
 
 .about-innovation-content{
-    flex-direction: column;
+    flex-direction: column-reverse;
     width:95%;
 
 }
@@ -210,7 +210,7 @@
 
 
 .about-innovation-right{
-    margin-top:2rem;
+    margin-bottom:2rem;
     width:100%;
 }
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import ScrollToTop from './components/ScrollToTop';
@@ -15,15 +15,32 @@ import Tippers from './pages/products/Tippers';
 import Bulkers from './pages/products/Bulkers';
 import Trailers from './pages/products/Trailers';
 import Contact from './pages/Contact';
+import SplashScreen from "./components/SplashScreen";
+import WhatsappButton from './components/WhatsappButton';
+import ContactButton from './components/CTAButton';
 import AboutUs from './pages/AboutUs';
 
 const App = () => {
+
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+      // Show splash screen for 3 seconds
+      const timer = setTimeout(() => setLoading(false), 3000);
+      return () => clearTimeout(timer);
+    }, []);
+
+    if (loading) {
+      return <SplashScreen />; // Show splash screen first
+    }
   return (
    <Router>
     <ScrollToTop/>
 
     <div className='app-style'>
     <Header/>
+    <WhatsappButton/>
+    <ContactButton/>
 
     <Routes>
       <Route path="/" element={<HomePage/>}/>

@@ -4,6 +4,7 @@ import Manufacturing from "../assets/manufacturing.webp";
 import Steel from "../assets/steel.webp";
 import QualityImage2 from "../assets/quality-img2.webp";
 import QualityImage3 from "../assets/quality-img3.webp";
+import QualityImage4 from "../assets/quality-img4.webp";
 import "../styles/HomePage.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
@@ -13,8 +14,12 @@ import Tippers from "../assets/tippers.webp"
 import BodyBuilders from "../assets/body-builders.webp"
 import Bulkers from "../assets/bulkers.webp"
 import Trailers from "../assets/trailers.webp"
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import { Link } from 'react-router-dom';
 import ScrollImage from '../components/ScrollImage';
+import ChooseUs from '../components/ChooseUs';
+import ManufacturingProcess from '../components/ManufacturingProcess'
 
 const HomePage = () => {
   return (
@@ -35,7 +40,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="featured-product-section">
+      <div className="featured-product-section" data-aos="fade-up" data-aos-duration="2000">
         <div className="featured-product-head">
         <h1 className="feature-product-heading">WHAT WE BUILD</h1>
         </div>
@@ -65,6 +70,12 @@ const HomePage = () => {
           </div>
           
         </SwiperSlide>
+        <SwiperSlide>
+          <Link to="/product/trailers" className="product-slide">
+            <img src={Trailers}/>
+            <h2  className='featured-product-name'>Trailers</h2>
+          </Link>
+        </SwiperSlide>
   
         <SwiperSlide>
           <Link to="/product/bulkers" className="product-slide">
@@ -72,12 +83,7 @@ const HomePage = () => {
             <h2  className='featured-product-name'>Bulkers / Tankers</h2>
           </Link>
         </SwiperSlide>
-        <SwiperSlide>
-          <Link to="/product/trailers" className="product-slide">
-            <img src={Trailers}/>
-            <h2  className='featured-product-name'>Trailers</h2>
-          </Link>
-        </SwiperSlide>
+        
        
       </Swiper>
         </div>
@@ -85,7 +91,7 @@ const HomePage = () => {
         
       <ScrollImage/>
 
-      <div className="reach-out-section">
+      <div className="reach-out-section" data-aos="fade-up" data-aos-duration="2000">
         <div className="reach-out-section-left">
           <img src={Manufacturing}/>
         </div>
@@ -100,12 +106,12 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="quality-section">
+      <div className="quality-section" data-aos="fade-up" data-aos-duration="2000">
         <div className="quality-section-head">
           <h2>STRENGTH THAT SETS US APART</h2>
         </div>
 
-        <div className="quality-section-points">
+        <div className="quality-section-points" >
           <div className="quality-section-point">
               <img className="quality-image" src={Steel}/>
 
@@ -131,7 +137,7 @@ const HomePage = () => {
               </div>
           </div>
           <div className="quality-section-point">
-              <img className="quality-image" src={Steel}/>
+              <img className="quality-image" src={QualityImage4}/>
 
               <div className='quality-point'>
                 <h2 className="quality-point-head">QUALITY-DRIVEN MANUFACTURING</h2>
@@ -140,8 +146,14 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <ChooseUs />
+      <ManufacturingProcess data-aos="fade-up" data-aos-duration="2000"/>
+
+      
     </div>
+
+   
   )
 }
-
+AOS.init()
 export default HomePage
