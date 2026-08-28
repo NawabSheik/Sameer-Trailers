@@ -1,5 +1,5 @@
 import React from 'react'
-import Steel from "../assets/icons/Steel.svg"
+import Steel from "../assets/icons/steel.svg"
 import CNC from "../assets/icons/settings.svg"
 import Quality from "../assets/icons/shield.svg"
 import Design from "../assets/icons/sketch.svg"
